@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .section {
     border-radius: 3.615px;
@@ -102,7 +102,7 @@ body {
     display: inline-block;
     border-radius: 50%;
     align-self: center;
-    border: 2px solid #007F61;
+    border: 0.904px solid #DADADA;
     margin-right: 10px;
   }
   table {
@@ -119,11 +119,13 @@ body {
   .custom-radio:checked + label .radio-button {
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    box-shadow: 0 0 0px 1px #ffffff,
-      0 0 0px 2px #007F61;
+    width: 9.038px;
+    height: 9.038px;
+    background-color: #007f61;
+    border: 3.51px solid white;
+    box-shadow: 0 0 0px 0.904px #007F61;
+    /* box-shadow: 0 0 0px 1px #ffffff,
+      0 0 0px 3px #007F61; */
     border-radius: 50%;
     background-color: #009688;
   }
